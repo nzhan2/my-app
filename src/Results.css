@@ -8,19 +8,15 @@ body,
   padding: 0;
 }
 .results {
-    position: relative;
-    margin-left: 200px;
-    border-radius: 25px;
-    /*Change background based on bin*/
-    background: blanchedalmond;
-    width: 1500px;
-    height:700px;
-    z-index: -1;
+  height: 100vh;
+  width: 100vw;
+}
+.bg {
+  height: 100vh;
+  width: 100vw;
 }
 h1 {
     z-index: 10;
-    margin-top: 100px;
-    margin-left: -100px;
     font-family: 'Gloock', serif;
     font-size: 50px;
     letter-spacing: 10px;
